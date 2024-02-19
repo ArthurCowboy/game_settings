@@ -11,7 +11,7 @@
         "fill_shape": {
             "enabled": true,
             "timeout": 60,
-            "max_retry_before_downgrade": 3,
+            "max_try_before_downgrade": 3,
             "levels": {
                 "1": { "target_power": 80 },
                 "2": { "target_power": 90 },
@@ -43,7 +43,7 @@
         "fill_gauge":{
             "enabled": true,
             "timeout": 60,
-            "max_retry_before_downgrade": 3,
+            "max_try_before_downgrade": 3,
             "target_duration": 15,
             "levels": {
                 "1": { "target_power": 80 },
