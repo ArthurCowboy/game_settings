@@ -1,0 +1,33 @@
+{
+    "global": {
+        "relaunch_cool_down": 21600,
+        "randomness_cool_down": 180,
+        "randomness": 4,
+        "power_threshold_trigger": 150,
+        "is_riding_cool_down": 15,
+        "power_threshold_trigger_duration": 3
+    },
+    "games":{
+        "fill_shape": {
+            "enabled": true,
+            "timeout": 60,
+            "max_retry_before_downgrade": 3,
+            "levels": [
+                {"target_power": 80},
+                {"target_power": 90},
+                {"target_power": 320}
+            ]
+        },
+        "fill_gauge":{
+            "enabled": true,
+            "timeout": 60,
+            "max_retry_before_downgrade": 3,
+            "target_duration": 15,
+            "levels": [
+                {"target_power": 80},
+                {"target_power": 90},
+                {"target_power": 320}
+            ]
+        }
+    }
+}
