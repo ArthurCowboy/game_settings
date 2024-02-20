@@ -41,7 +41,7 @@
       }
     },
     "fill_gauge": {
-      "enabled": true,
+      "enabled": false,
       "timeout": 60,
       "max_try_before_downgrade": 3,
       "target_duration": 15,
