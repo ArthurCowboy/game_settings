@@ -5,7 +5,9 @@
     "randomness": 4,
     "power_threshold_trigger": 150,
     "is_riding_cooldown": 15,
-    "power_threshold_trigger_duration": 3
+    "power_threshold_trigger_duration": 3,
+    "start_countdown": 5,
+    "close_countdown": 5
   },
   "games": {
     "fill_shape": {
