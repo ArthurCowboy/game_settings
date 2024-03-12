@@ -4,6 +4,7 @@
     "randomness_cooldown": 180,
     "randomness": 4,
     "power_threshold_trigger": 150,
+    "min_riding_speed": 6,
     "is_riding_cooldown": 15,
     "power_threshold_trigger_duration": 3,
     "start_countdown": 5,
